@@ -12,4 +12,7 @@ The data stored in the local storage persist even after the browser is closed. W
 
 ### Cookie
 
-Cookies are small bits of data stored in the user's browser and sent back to the server with each HTTP request.
+Cookies are small piece of data stored in the  browser and sent back to the server with each HTTP request. Data persist as per the expiry TTL set.
+
+SessionStorage is more secure than LocalStorage because it can only be used within a browser tab. XSS attacks can affect both SessionStorage and LocalStorage. Thus, do not save sensitive information in the browser's store.
+
