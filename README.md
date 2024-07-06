@@ -16,3 +16,5 @@ Cookies are small piece of data stored in the  browser and sent back to the serv
 
 SessionStorage is more secure than LocalStorage because it can only be used within a browser tab. XSS attacks can affect both SessionStorage and LocalStorage. Thus, do not save sensitive information in the browser's store.
 
+Improper user data verification at server side and storage of senstive data in web storage result in insecure direct object reference vulnerability.  
+
