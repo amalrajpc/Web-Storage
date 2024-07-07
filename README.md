@@ -18,3 +18,9 @@ SessionStorage is more secure than LocalStorage because it can only be used with
 
 Improper user data verification at server side and storage of senstive data in web storage some times result in insecure direct object reference vulnerability (IDOR).  
 
+Setting the secure flag true, allows cookie to be transmitted over an encrypted connection. The secure flag is used to protect against MITM attack.
+This attribute protect against the confidentiality not the integrity.
+The HTTP Only attribute against the XSS attack.
+
+
+
